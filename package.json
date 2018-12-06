@@ -1,0 +1,20 @@
+{
+  "name": "ag-grid-vue-i8n",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "ag-grid-community": "^19.1.0",
+    "ag-grid-vue": "^19.1.0",
+    "vue": "^2.5.17",
+    "vue-i18n": "^8.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

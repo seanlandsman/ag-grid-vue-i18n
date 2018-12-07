@@ -10,16 +10,12 @@ const i18n = new VueI18n({
     locale: 'de',   // locale
     messages: {     // messages
         en: {
-            message: {
-                chair: 'Chair',
-                car: 'Car'
-            }
+            chair: 'Chair',
+            car: 'Car'
         },
         de: {
-            message: {
-                chair: 'Stuhl',
-                car: 'Auto'
-            }
+            chair: 'Stuhl',
+            car: 'Auto'
         }
     },
 });

@@ -1,5 +1,5 @@
 <template>
-    <div>{{ $t(`message.${params.value}`) }}</div>
+    <div>{{ $t(params.value) }}</div>
 </template>
 
 <script>

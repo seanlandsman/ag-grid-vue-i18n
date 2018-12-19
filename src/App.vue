@@ -14,9 +14,6 @@
     import {AgGridVue} from "ag-grid-vue";
     import TranslationCellRenderer from "./components/TranslationCellRenderer";
 
-    import '../node_modules/ag-grid-community/dist/styles/ag-grid.css'
-    import '../node_modules/ag-grid-community/dist/styles/ag-theme-balham.css'
-
     export default {
         name: 'App',
         data() {
@@ -55,8 +52,7 @@
     }
 </script>
 
-<style scoped>
-    .exchange {
-        margin-bottom: 10px;
-    }
+<style scoped lang="css">
+    @import '~ag-grid-community/dist/styles/ag-grid.css';
+    @import '~ag-grid-community/dist/styles/ag-theme-balham.css';
 </style>

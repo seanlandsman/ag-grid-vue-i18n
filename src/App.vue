@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ag-grid-vue style="width: 500px; height: 200px;"
+        <ag-grid-vue style="width: 500px; height: 120px;"
                      class="ag-theme-balham"
                      :columnDefs="columnDefs"
                      :rowData="rowData"
